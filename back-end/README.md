@@ -1,5 +1,12 @@
+<!--
+ * @Date: 2025-02-03 19:06:11
+ * @LastEditors: Aregene
+ * @LastEditTime: 2025-02-04 11:59:44
+-->
 # back-end开发文档
 ## 目录结构
+
+```
 
 class-website
 │
@@ -18,6 +25,8 @@ class-website
     ├── docker-compose.yml     # Docker Compose配置文件，用于定义和运行多容器应用
     └── README.md              # 项目说明文档
     └── .env                   # 环境变量配置文件
+
+```
 
 # 打包requirements.txt文件
 pip freeze > requirements.txt
